@@ -1,0 +1,160 @@
+
+*{
+    padding: 2px;
+    top: -51px;
+    left: 17px;
+}
+#na{
+    display: flex;
+    margin: 27px -34px;
+}
+
+#logo img {
+    height: 140px;
+    width: 134px;
+    margin: -13px 0px;
+}
+
+#na{
+   position: relative;
+}
+
+#na::before{
+    content: "";
+    background-color: #91a0a8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+#na ul{
+    display: flex;
+    padding: -2px;
+}
+
+#na ul li {
+   
+    list-style: none;
+    font-size: 25px;
+}
+
+#na ul li a{
+    display: block;
+    color: white;
+    padding: 4px 28px;
+    text-decoration: none;
+    border: 2px solid #170006;
+    border-radius: 36px;
+    margin: 21px 24px;
+}
+#na ul li a:hover{
+    color: rgb(68, 133, 207);
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 100px;
+    flex-direction: column;
+    height:483px;
+}
+#home::before{
+    content: "";
+    background:url(bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: #e6f6ee;
+    text-align: center;
+}
+.p{
+    font-size: 2.2rem;
+    padding:5px;
+    margin: 28px 616px;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.btn{
+    padding: 10px;
+    color: white;
+    background-color: #17201f;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.centre{
+    text-align: center;
+}
+
+.s{
+    font-size: 2.0rem;
+    padding: 4px;
+    margin: -10px 164px;
+}
+
+
+#service{
+    
+    display: flex;
+}
+#service .box{
+       border: 5px solid brown;
+       padding: 5px;
+       margin: 3px 7px;
+       border-radius: 15px;
+       width: 500px;
+       background-color: #cdd5e2;
+}
+ #service .box img{
+    height: 152px;
+    width: 234px;
+    padding: 10px 3px;
+      display: block;
+      margin: auto;
+}
+
+
+#client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clientS::before{
+        content: "";
+        position: absolute;
+        background: url("client.jpeg")no-repeat center center/cover;
+        width: 100%;
+        height: 60%;
+        z-index: -1;
+        opacity: 0.5;
+}
+
+#client img{
+    height:150px;
+}
+
+#f{
+    height: 150px;
+}
+#se{
+    height: 150px;
+}
